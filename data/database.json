@@ -1,0 +1,1817 @@
+{
+  "workers": [
+    {
+      "id": "W002",
+      "name": "Priya Devi",
+      "phone": "9876543211",
+      "status": "active"
+    },
+    {
+      "id": "W003",
+      "name": "Suresh Babu",
+      "phone": "9876543212",
+      "status": "active"
+    },
+    {
+      "id": "W004",
+      "name": "Lakshmi R.",
+      "phone": "9876543213",
+      "status": "active"
+    },
+    {
+      "id": "W005",
+      "name": "Anand Raj",
+      "phone": "9876543214",
+      "status": "active"
+    },
+    {
+      "id": "W006",
+      "name": "Meena Kumari",
+      "phone": "9876543215",
+      "status": "active"
+    },
+    {
+      "id": "W007",
+      "name": "Venkatesh P.",
+      "phone": "9876543216",
+      "status": "active"
+    },
+    {
+      "id": "W008",
+      "name": "Kavitha S.",
+      "phone": "9876543217",
+      "status": "active"
+    },
+    {
+      "id": "W009",
+      "name": "Rajesh M.",
+      "phone": "9876543218",
+      "status": "active"
+    },
+    {
+      "id": "W010",
+      "name": "Sumathi L.",
+      "phone": "9876543219",
+      "status": "active"
+    },
+    {
+      "id": "W011",
+      "name": "Mani V.",
+      "phone": "9876543220",
+      "status": "inactive"
+    },
+    {
+      "id": "W012",
+      "name": "Divya N.",
+      "phone": "9876543221",
+      "status": "active"
+    },
+    {
+      "id": "W013",
+      "name": "Bhava",
+      "phone": "7598103740",
+      "status": "inactive"
+    },
+    {
+      "id": "W014",
+      "name": "Arun Prasad",
+      "phone": "9845100001",
+      "status": "active"
+    },
+    {
+      "id": "W015",
+      "name": "Deepa Mohan",
+      "phone": "9845100002",
+      "status": "active"
+    },
+    {
+      "id": "W016",
+      "name": "Ganesh R.",
+      "phone": "9845100003",
+      "status": "active"
+    },
+    {
+      "id": "W017",
+      "name": "Hema Malini",
+      "phone": "9845100004",
+      "status": "active"
+    },
+    {
+      "id": "W018",
+      "name": "Ilango K.",
+      "phone": "9845100005",
+      "status": "active"
+    },
+    {
+      "id": "W019",
+      "name": "Janani S.",
+      "phone": "9845100006",
+      "status": "active"
+    },
+    {
+      "id": "W020",
+      "name": "Karthik T.",
+      "phone": "9845100007",
+      "status": "inactive"
+    },
+    {
+      "id": "W021",
+      "name": "Latha P.",
+      "phone": "9845100008",
+      "status": "active"
+    },
+    {
+      "id": "W022",
+      "name": "Mohan Das",
+      "phone": "9845100009",
+      "status": "active"
+    },
+    {
+      "id": "W023",
+      "name": "Nithya R.",
+      "phone": "9845100010",
+      "status": "active"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R001",
+      "name": "Route A - Main Street",
+      "assignedWorkerId": "W001",
+      "description": "Main Street, Park Road, Lake View, Temple Square"
+    },
+    {
+      "id": "R002",
+      "name": "Route B - Industrial Area",
+      "assignedWorkerId": "W002",
+      "description": "Industrial Zone, Factory Road, Warehouse District"
+    },
+    {
+      "id": "R003",
+      "name": "Route C - Residential Colony",
+      "assignedWorkerId": "W003",
+      "description": "Green Colony, Sunrise Nagar, Nehru Street"
+    },
+    {
+      "id": "R004",
+      "name": "Route D - Market Area",
+      "assignedWorkerId": "W004",
+      "description": "Central Market, Bazaar Road, Flower Market, Fish Market"
+    },
+    {
+      "id": "R005",
+      "name": "Route E - Highway Stretch",
+      "assignedWorkerId": "W005",
+      "description": "Highway Road, Toll Gate, Outskirts, Petrol Bunk Junction"
+    },
+    {
+      "id": "R006",
+      "name": "Route F - Hospital Zone",
+      "assignedWorkerId": "W006",
+      "description": "Hospital Road, Clinic Street, Pharmacy Lane, Blood Bank Road"
+    },
+    {
+      "id": "R007",
+      "name": "Route G - School District",
+      "assignedWorkerId": "W007",
+      "description": "School Road, College Lane, Library Street, Play Ground Road"
+    },
+    {
+      "id": "R008",
+      "name": "Route H - Township",
+      "assignedWorkerId": "W008",
+      "description": "Township Layout, Sector 1-5, Community Hall Road, Park Avenue"
+    },
+    {
+      "id": "R009",
+      "name": "Route I - Railway Colony",
+      "assignedWorkerId": "W009",
+      "description": "Railway Station Road, Platform Area, Colony Gate, Staff Quarters"
+    },
+    {
+      "id": "R010",
+      "name": "Route J - Temple Town",
+      "assignedWorkerId": "W010",
+      "description": "Temple Street, Pilgrim Road, Ghat Road, Prasad Market"
+    },
+    {
+      "id": "R011",
+      "name": "Route K - IT Park",
+      "assignedWorkerId": "W012",
+      "description": "IT Expressway, Tech Park, Software Layout, Cafeteria Road"
+    },
+    {
+      "id": "R012",
+      "name": "Route L - Garden District",
+      "assignedWorkerId": "W014",
+      "description": "Botanical Garden Road, Rose Park, Lotus Lane, Fern Avenue"
+    },
+    {
+      "id": "R013",
+      "name": "Route M - Lake View",
+      "assignedWorkerId": "W015",
+      "description": "Lakefront Road, Boat House Area, Fishermen Colony, Sunset Point"
+    },
+    {
+      "id": "R014",
+      "name": "Route N - Shopping Complex",
+      "assignedWorkerId": "W016",
+      "description": "Mall Road, Hypermarket Lane, Food Court Street, Parking Area"
+    },
+    {
+      "id": "R015",
+      "name": "Route O - Old City",
+      "assignedWorkerId": "W017",
+      "description": "Heritage Street, Fort Road, Ancient Bazaar, Clock Tower Area"
+    },
+    {
+      "id": "R016",
+      "name": "Route P - University Campus",
+      "assignedWorkerId": "W018",
+      "description": "University Gate, Hostel Road, Sports Complex, Research Block"
+    },
+    {
+      "id": "R017",
+      "name": "Route Q - Industrial Estate",
+      "assignedWorkerId": "W019",
+      "description": "Phase 1-3 Industrial Estate, Power House Road, Logistics Hub"
+    },
+    {
+      "id": "R018",
+      "name": "Route R - Suburban Area",
+      "assignedWorkerId": "W021",
+      "description": "Suburban Bus Stand, Market Yard, School Zone, Residential Blocks A-D"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "A001",
+      "workerId": "W001",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A002",
+      "workerId": "W002",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A003",
+      "workerId": "W003",
+      "date": "2026-07-20",
+      "status": "absent"
+    },
+    {
+      "id": "A004",
+      "workerId": "W004",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A005",
+      "workerId": "W005",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A006",
+      "workerId": "W006",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A007",
+      "workerId": "W007",
+      "date": "2026-07-20",
+      "status": "leave"
+    },
+    {
+      "id": "A008",
+      "workerId": "W008",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A009",
+      "workerId": "W001",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A010",
+      "workerId": "W002",
+      "date": "2026-07-21",
+      "status": "absent"
+    },
+    {
+      "id": "A011",
+      "workerId": "W003",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A012",
+      "workerId": "W004",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A013",
+      "workerId": "W005",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A014",
+      "workerId": "W006",
+      "date": "2026-07-21",
+      "status": "leave"
+    },
+    {
+      "id": "A015",
+      "workerId": "W007",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A016",
+      "workerId": "W008",
+      "date": "2026-07-21",
+      "status": "absent"
+    },
+    {
+      "id": "A017",
+      "workerId": "W001",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A018",
+      "workerId": "W002",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A019",
+      "workerId": "W003",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A020",
+      "workerId": "W004",
+      "date": "2026-07-22",
+      "status": "absent"
+    },
+    {
+      "id": "A021",
+      "workerId": "W005",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A022",
+      "workerId": "W006",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A023",
+      "workerId": "W007",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A024",
+      "workerId": "W008",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A025",
+      "workerId": "W001",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A026",
+      "workerId": "W002",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A027",
+      "workerId": "W003",
+      "date": "2026-07-23",
+      "status": "leave"
+    },
+    {
+      "id": "A028",
+      "workerId": "W004",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A029",
+      "workerId": "W005",
+      "date": "2026-07-23",
+      "status": "absent"
+    },
+    {
+      "id": "A030",
+      "workerId": "W006",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A031",
+      "workerId": "W007",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A032",
+      "workerId": "W008",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A033",
+      "workerId": "W001",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A034",
+      "workerId": "W002",
+      "date": "2026-07-24",
+      "status": "absent"
+    },
+    {
+      "id": "A035",
+      "workerId": "W003",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A036",
+      "workerId": "W004",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A037",
+      "workerId": "W005",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A038",
+      "workerId": "W006",
+      "date": "2026-07-24",
+      "status": "leave"
+    },
+    {
+      "id": "A039",
+      "workerId": "W007",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A040",
+      "workerId": "W008",
+      "date": "2026-07-24",
+      "status": "absent"
+    },
+    {
+      "id": "A041",
+      "workerId": "W001",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A042",
+      "workerId": "W002",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A043",
+      "workerId": "W003",
+      "date": "2026-07-25",
+      "status": "absent"
+    },
+    {
+      "id": "A044",
+      "workerId": "W004",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A045",
+      "workerId": "W005",
+      "date": "2026-07-25",
+      "status": "leave"
+    },
+    {
+      "id": "A046",
+      "workerId": "W006",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A047",
+      "workerId": "W007",
+      "date": "2026-07-25",
+      "status": "absent"
+    },
+    {
+      "id": "A048",
+      "workerId": "W008",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A049",
+      "workerId": "W009",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A050",
+      "workerId": "W010",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A051",
+      "workerId": "W009",
+      "date": "2026-07-23",
+      "status": "absent"
+    },
+    {
+      "id": "A052",
+      "workerId": "W010",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A053",
+      "workerId": "W009",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A054",
+      "workerId": "W010",
+      "date": "2026-07-24",
+      "status": "leave"
+    },
+    {
+      "id": "A055",
+      "workerId": "W009",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A056",
+      "workerId": "W010",
+      "date": "2026-07-25",
+      "status": "absent"
+    },
+    {
+      "id": "A057",
+      "workerId": "W012",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A058",
+      "workerId": "W014",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A059",
+      "workerId": "W015",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A060",
+      "workerId": "W016",
+      "date": "2026-07-20",
+      "status": "absent"
+    },
+    {
+      "id": "A061",
+      "workerId": "W017",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A062",
+      "workerId": "W018",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A063",
+      "workerId": "W019",
+      "date": "2026-07-20",
+      "status": "leave"
+    },
+    {
+      "id": "A064",
+      "workerId": "W021",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A065",
+      "workerId": "W022",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A066",
+      "workerId": "W023",
+      "date": "2026-07-20",
+      "status": "present"
+    },
+    {
+      "id": "A067",
+      "workerId": "W014",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A068",
+      "workerId": "W015",
+      "date": "2026-07-21",
+      "status": "absent"
+    },
+    {
+      "id": "A069",
+      "workerId": "W016",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A070",
+      "workerId": "W017",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A071",
+      "workerId": "W018",
+      "date": "2026-07-21",
+      "status": "leave"
+    },
+    {
+      "id": "A072",
+      "workerId": "W019",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A073",
+      "workerId": "W021",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A074",
+      "workerId": "W022",
+      "date": "2026-07-21",
+      "status": "absent"
+    },
+    {
+      "id": "A075",
+      "workerId": "W023",
+      "date": "2026-07-21",
+      "status": "present"
+    },
+    {
+      "id": "A076",
+      "workerId": "W014",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A077",
+      "workerId": "W015",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A078",
+      "workerId": "W016",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A079",
+      "workerId": "W017",
+      "date": "2026-07-22",
+      "status": "absent"
+    },
+    {
+      "id": "A080",
+      "workerId": "W018",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A081",
+      "workerId": "W019",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A082",
+      "workerId": "W021",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A083",
+      "workerId": "W022",
+      "date": "2026-07-22",
+      "status": "present"
+    },
+    {
+      "id": "A084",
+      "workerId": "W023",
+      "date": "2026-07-22",
+      "status": "leave"
+    },
+    {
+      "id": "A085",
+      "workerId": "W014",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A086",
+      "workerId": "W015",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A087",
+      "workerId": "W016",
+      "date": "2026-07-23",
+      "status": "leave"
+    },
+    {
+      "id": "A088",
+      "workerId": "W017",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A089",
+      "workerId": "W018",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A090",
+      "workerId": "W019",
+      "date": "2026-07-23",
+      "status": "absent"
+    },
+    {
+      "id": "A091",
+      "workerId": "W021",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A092",
+      "workerId": "W022",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A093",
+      "workerId": "W023",
+      "date": "2026-07-23",
+      "status": "present"
+    },
+    {
+      "id": "A094",
+      "workerId": "W014",
+      "date": "2026-07-24",
+      "status": "absent"
+    },
+    {
+      "id": "A095",
+      "workerId": "W015",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A096",
+      "workerId": "W016",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A097",
+      "workerId": "W017",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A098",
+      "workerId": "W018",
+      "date": "2026-07-24",
+      "status": "absent"
+    },
+    {
+      "id": "A099",
+      "workerId": "W019",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A100",
+      "workerId": "W021",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A101",
+      "workerId": "W022",
+      "date": "2026-07-24",
+      "status": "leave"
+    },
+    {
+      "id": "A102",
+      "workerId": "W023",
+      "date": "2026-07-24",
+      "status": "present"
+    },
+    {
+      "id": "A103",
+      "workerId": "W014",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A104",
+      "workerId": "W015",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A105",
+      "workerId": "W016",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A106",
+      "workerId": "W017",
+      "date": "2026-07-25",
+      "status": "absent"
+    },
+    {
+      "id": "A107",
+      "workerId": "W018",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A108",
+      "workerId": "W019",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A109",
+      "workerId": "W021",
+      "date": "2026-07-25",
+      "status": "leave"
+    },
+    {
+      "id": "A110",
+      "workerId": "W022",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A111",
+      "workerId": "W023",
+      "date": "2026-07-25",
+      "status": "present"
+    },
+    {
+      "id": "A112",
+      "workerId": "W011",
+      "date": "2026-07-25",
+      "status": "absent"
+    },
+    {
+      "id": "A113",
+      "workerId": "W002",
+      "date": "2026-07-26",
+      "status": "absent"
+    },
+    {
+      "id": "A114",
+      "workerId": "W003",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A115",
+      "workerId": "W004",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A116",
+      "workerId": "W005",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A117",
+      "workerId": "W006",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A118",
+      "workerId": "W007",
+      "date": "2026-07-26",
+      "status": "leave"
+    },
+    {
+      "id": "A119",
+      "workerId": "W008",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A120",
+      "workerId": "W009",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A121",
+      "workerId": "W010",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A122",
+      "workerId": "W011",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A123",
+      "workerId": "W012",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A124",
+      "workerId": "W013",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A125",
+      "workerId": "W014",
+      "date": "2026-07-26",
+      "status": "absent"
+    },
+    {
+      "id": "A126",
+      "workerId": "W015",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A127",
+      "workerId": "W016",
+      "date": "2026-07-26",
+      "status": "leave"
+    },
+    {
+      "id": "A128",
+      "workerId": "W017",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A129",
+      "workerId": "W018",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A130",
+      "workerId": "W019",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A131",
+      "workerId": "W020",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A132",
+      "workerId": "W021",
+      "date": "2026-07-26",
+      "status": "absent"
+    },
+    {
+      "id": "A133",
+      "workerId": "W022",
+      "date": "2026-07-26",
+      "status": "present"
+    },
+    {
+      "id": "A134",
+      "workerId": "W023",
+      "date": "2026-07-26",
+      "status": "present"
+    }
+  ],
+  "routeCoverage": [
+    {
+      "id": "C001",
+      "routeId": "R001",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Completed all 4 collection points on time"
+    },
+    {
+      "id": "C002",
+      "routeId": "R002",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "All industrial bins cleared"
+    },
+    {
+      "id": "C003",
+      "routeId": "R003",
+      "date": "2026-07-20",
+      "status": "not_covered",
+      "notes": "Worker absent, no substitute available"
+    },
+    {
+      "id": "C004",
+      "routeId": "R004",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Market cleaned before opening hours"
+    },
+    {
+      "id": "C005",
+      "routeId": "R005",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Highway stretch fully covered"
+    },
+    {
+      "id": "C006",
+      "routeId": "R006",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Hospital zone cleared on schedule"
+    },
+    {
+      "id": "C007",
+      "routeId": "R007",
+      "date": "2026-07-20",
+      "status": "partial",
+      "notes": "Only school road done, college lane skipped"
+    },
+    {
+      "id": "C008",
+      "routeId": "R008",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Township all sectors done"
+    },
+    {
+      "id": "C009",
+      "routeId": "R001",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "On time, all points collected"
+    },
+    {
+      "id": "C010",
+      "routeId": "R002",
+      "date": "2026-07-21",
+      "status": "not_covered",
+      "notes": "Worker on leave, route skipped"
+    },
+    {
+      "id": "C011",
+      "routeId": "R003",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Residential colony fully serviced"
+    },
+    {
+      "id": "C012",
+      "routeId": "R004",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "All market areas covered"
+    },
+    {
+      "id": "C013",
+      "routeId": "R005",
+      "date": "2026-07-21",
+      "status": "partial",
+      "notes": "Toll gate area skipped due to road block"
+    },
+    {
+      "id": "C014",
+      "routeId": "R006",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Hospital waste collected on time"
+    },
+    {
+      "id": "C015",
+      "routeId": "R007",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Full route completed"
+    },
+    {
+      "id": "C016",
+      "routeId": "R008",
+      "date": "2026-07-21",
+      "status": "not_covered",
+      "notes": "Worker absent, emergency coverage failed"
+    },
+    {
+      "id": "C017",
+      "routeId": "R001",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "All done before 10 AM"
+    },
+    {
+      "id": "C018",
+      "routeId": "R002",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Industrial area fully cleared"
+    },
+    {
+      "id": "C019",
+      "routeId": "R003",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Green Colony and Sunrise Nagar done"
+    },
+    {
+      "id": "C020",
+      "routeId": "R004",
+      "date": "2026-07-22",
+      "status": "not_covered",
+      "notes": "Worker sick, no replacement"
+    },
+    {
+      "id": "C021",
+      "routeId": "R005",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Highway route done"
+    },
+    {
+      "id": "C022",
+      "routeId": "R006",
+      "date": "2026-07-22",
+      "status": "partial",
+      "notes": "Blood bank road skipped"
+    },
+    {
+      "id": "C023",
+      "routeId": "R007",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "School district fully serviced"
+    },
+    {
+      "id": "C024",
+      "routeId": "R008",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "All township sectors done"
+    },
+    {
+      "id": "C025",
+      "routeId": "R001",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Completed on schedule"
+    },
+    {
+      "id": "C026",
+      "routeId": "R002",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "All factory bins cleared"
+    },
+    {
+      "id": "C027",
+      "routeId": "R003",
+      "date": "2026-07-23",
+      "status": "partial",
+      "notes": "Nehru Street skipped, rest done"
+    },
+    {
+      "id": "C028",
+      "routeId": "R004",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Market area fully clean"
+    },
+    {
+      "id": "C029",
+      "routeId": "R005",
+      "date": "2026-07-23",
+      "status": "not_covered",
+      "notes": "Worker absent"
+    },
+    {
+      "id": "C030",
+      "routeId": "R006",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Hospital zone done"
+    },
+    {
+      "id": "C031",
+      "routeId": "R007",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "All school roads done"
+    },
+    {
+      "id": "C032",
+      "routeId": "R008",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Township layout serviced"
+    },
+    {
+      "id": "C033",
+      "routeId": "R001",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "On time, all done"
+    },
+    {
+      "id": "C034",
+      "routeId": "R002",
+      "date": "2026-07-24",
+      "status": "not_covered",
+      "notes": "Worker absent, route skipped"
+    },
+    {
+      "id": "C035",
+      "routeId": "R003",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "All residential areas covered"
+    },
+    {
+      "id": "C036",
+      "routeId": "R004",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Bazaar Road cleaned early"
+    },
+    {
+      "id": "C037",
+      "routeId": "R005",
+      "date": "2026-07-24",
+      "status": "partial",
+      "notes": "Outskirts not covered, limited time"
+    },
+    {
+      "id": "C038",
+      "routeId": "R006",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Full hospital route done"
+    },
+    {
+      "id": "C039",
+      "routeId": "R007",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "School district clean"
+    },
+    {
+      "id": "C040",
+      "routeId": "R008",
+      "date": "2026-07-24",
+      "status": "not_covered",
+      "notes": "Worker absent"
+    },
+    {
+      "id": "C041",
+      "routeId": "R001",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Completed all collection points"
+    },
+    {
+      "id": "C042",
+      "routeId": "R002",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "All points collected"
+    },
+    {
+      "id": "C043",
+      "routeId": "R003",
+      "date": "2026-07-25",
+      "status": "not_covered",
+      "notes": "Worker absent, no substitute"
+    },
+    {
+      "id": "C044",
+      "routeId": "R004",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Market area fully serviced"
+    },
+    {
+      "id": "C045",
+      "routeId": "R005",
+      "date": "2026-07-25",
+      "status": "partial",
+      "notes": "Half route covered by substitute"
+    },
+    {
+      "id": "C046",
+      "routeId": "R006",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Hospital waste on time"
+    },
+    {
+      "id": "C047",
+      "routeId": "R007",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Full school route done"
+    },
+    {
+      "id": "C048",
+      "routeId": "R008",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "All township sectors done"
+    },
+    {
+      "id": "C049",
+      "routeId": "R009",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Railway colony fully serviced"
+    },
+    {
+      "id": "C050",
+      "routeId": "R010",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Temple area cleaned before morning rush"
+    },
+    {
+      "id": "C051",
+      "routeId": "R011",
+      "date": "2026-07-20",
+      "status": "partial",
+      "notes": "Cafeteria road skipped due to event"
+    },
+    {
+      "id": "C052",
+      "routeId": "R012",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Garden district fully cleared"
+    },
+    {
+      "id": "C053",
+      "routeId": "R013",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Lakefront cleaned early morning"
+    },
+    {
+      "id": "C054",
+      "routeId": "R014",
+      "date": "2026-07-20",
+      "status": "not_covered",
+      "notes": "Worker absent, mall area skipped"
+    },
+    {
+      "id": "C055",
+      "routeId": "R015",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Old city heritage area fully covered"
+    },
+    {
+      "id": "C056",
+      "routeId": "R016",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "University campus cleaned after classes"
+    },
+    {
+      "id": "C057",
+      "routeId": "R017",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "All industrial estate phases cleared"
+    },
+    {
+      "id": "C058",
+      "routeId": "R018",
+      "date": "2026-07-20",
+      "status": "covered",
+      "notes": "Suburban area fully serviced"
+    },
+    {
+      "id": "C059",
+      "routeId": "R009",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "All railway points done"
+    },
+    {
+      "id": "C060",
+      "routeId": "R010",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Temple town route completed"
+    },
+    {
+      "id": "C061",
+      "routeId": "R011",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "IT Park fully serviced"
+    },
+    {
+      "id": "C062",
+      "routeId": "R012",
+      "date": "2026-07-21",
+      "status": "not_covered",
+      "notes": "Worker absent, garden area skipped"
+    },
+    {
+      "id": "C063",
+      "routeId": "R013",
+      "date": "2026-07-21",
+      "status": "partial",
+      "notes": "Boat house area skipped"
+    },
+    {
+      "id": "C064",
+      "routeId": "R014",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Shopping complex cleaned before opening"
+    },
+    {
+      "id": "C065",
+      "routeId": "R015",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Old city all lanes covered"
+    },
+    {
+      "id": "C066",
+      "routeId": "R016",
+      "date": "2026-07-21",
+      "status": "not_covered",
+      "notes": "Worker on leave, route skipped"
+    },
+    {
+      "id": "C067",
+      "routeId": "R017",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "Industrial estate fully cleared"
+    },
+    {
+      "id": "C068",
+      "routeId": "R018",
+      "date": "2026-07-21",
+      "status": "covered",
+      "notes": "All suburban blocks done"
+    },
+    {
+      "id": "C069",
+      "routeId": "R009",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Railway station area done"
+    },
+    {
+      "id": "C070",
+      "routeId": "R010",
+      "date": "2026-07-22",
+      "status": "partial",
+      "notes": "Pilgrim road partially done"
+    },
+    {
+      "id": "C071",
+      "routeId": "R011",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Tech park all buildings covered"
+    },
+    {
+      "id": "C072",
+      "routeId": "R012",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Rose park and fern avenue done"
+    },
+    {
+      "id": "C073",
+      "routeId": "R013",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Lakefront and sunset point done"
+    },
+    {
+      "id": "C074",
+      "routeId": "R014",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Shopping complex fully cleaned"
+    },
+    {
+      "id": "C075",
+      "routeId": "R015",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "Fort road and clock tower done"
+    },
+    {
+      "id": "C076",
+      "routeId": "R016",
+      "date": "2026-07-22",
+      "status": "covered",
+      "notes": "University hostel area done"
+    },
+    {
+      "id": "C077",
+      "routeId": "R017",
+      "date": "2026-07-22",
+      "status": "not_covered",
+      "notes": "Worker absent, no coverage"
+    },
+    {
+      "id": "C078",
+      "routeId": "R018",
+      "date": "2026-07-22",
+      "status": "partial",
+      "notes": "Blocks A-C done, Block D skipped"
+    },
+    {
+      "id": "C079",
+      "routeId": "R009",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Railway colony done on time"
+    },
+    {
+      "id": "C080",
+      "routeId": "R010",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Temple area fully covered"
+    },
+    {
+      "id": "C081",
+      "routeId": "R011",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "IT Expressway fully serviced"
+    },
+    {
+      "id": "C082",
+      "routeId": "R012",
+      "date": "2026-07-23",
+      "status": "partial",
+      "notes": "Lotus lane skipped due to rain"
+    },
+    {
+      "id": "C083",
+      "routeId": "R013",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Lake view full route done"
+    },
+    {
+      "id": "C084",
+      "routeId": "R014",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Mall and food court cleaned"
+    },
+    {
+      "id": "C085",
+      "routeId": "R015",
+      "date": "2026-07-23",
+      "status": "not_covered",
+      "notes": "Worker absent, old city skipped"
+    },
+    {
+      "id": "C086",
+      "routeId": "R016",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Campus and sports complex done"
+    },
+    {
+      "id": "C087",
+      "routeId": "R017",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "Power house road cleared"
+    },
+    {
+      "id": "C088",
+      "routeId": "R018",
+      "date": "2026-07-23",
+      "status": "covered",
+      "notes": "All suburban blocks done"
+    },
+    {
+      "id": "C089",
+      "routeId": "R009",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Platform area and quarters done"
+    },
+    {
+      "id": "C090",
+      "routeId": "R010",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Temple and prasad market done"
+    },
+    {
+      "id": "C091",
+      "routeId": "R011",
+      "date": "2026-07-24",
+      "status": "partial",
+      "notes": "Software layout partially covered"
+    },
+    {
+      "id": "C092",
+      "routeId": "R012",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Botanical garden area done"
+    },
+    {
+      "id": "C093",
+      "routeId": "R013",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Fishermen colony cleaned"
+    },
+    {
+      "id": "C094",
+      "routeId": "R014",
+      "date": "2026-07-24",
+      "status": "not_covered",
+      "notes": "Worker absent, shopping area skipped"
+    },
+    {
+      "id": "C095",
+      "routeId": "R015",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Heritage street fully covered"
+    },
+    {
+      "id": "C096",
+      "routeId": "R016",
+      "date": "2026-07-24",
+      "status": "not_covered",
+      "notes": "Worker absent, campus not serviced"
+    },
+    {
+      "id": "C097",
+      "routeId": "R017",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Logistics hub fully cleared"
+    },
+    {
+      "id": "C098",
+      "routeId": "R018",
+      "date": "2026-07-24",
+      "status": "covered",
+      "notes": "Bus stand and market yard done"
+    },
+    {
+      "id": "C099",
+      "routeId": "R009",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Full railway colony done"
+    },
+    {
+      "id": "C100",
+      "routeId": "R010",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Temple town all points done"
+    },
+    {
+      "id": "C101",
+      "routeId": "R011",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Tech park and cafeteria road done"
+    },
+    {
+      "id": "C102",
+      "routeId": "R012",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "All garden areas serviced"
+    },
+    {
+      "id": "C103",
+      "routeId": "R013",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Lake view fully completed"
+    },
+    {
+      "id": "C104",
+      "routeId": "R014",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Shopping complex all zones done"
+    },
+    {
+      "id": "C105",
+      "routeId": "R015",
+      "date": "2026-07-25",
+      "status": "partial",
+      "notes": "Clock tower area only, rest delayed"
+    },
+    {
+      "id": "C106",
+      "routeId": "R016",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "University research block done"
+    },
+    {
+      "id": "C107",
+      "routeId": "R017",
+      "date": "2026-07-25",
+      "status": "not_covered",
+      "notes": "Worker absent, industrial skipped"
+    },
+    {
+      "id": "C108",
+      "routeId": "R018",
+      "date": "2026-07-25",
+      "status": "covered",
+      "notes": "Suburban school zone and blocks done"
+    },
+    {
+      "id": "C109",
+      "routeId": "R002",
+      "date": "2026-07-26",
+      "status": "partial",
+      "notes": "traffic"
+    }
+  ]
+}
