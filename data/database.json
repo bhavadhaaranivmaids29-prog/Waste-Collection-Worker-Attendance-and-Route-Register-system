@@ -138,109 +138,127 @@
       "id": "R001",
       "name": "Route A - Main Street",
       "assignedWorkerId": "W001",
-      "description": "Main Street, Park Road, Lake View, Temple Square"
+      "description": "Main Street, Park Road, Lake View, Temple Square",
+      "time": "06:00"
     },
     {
       "id": "R002",
       "name": "Route B - Industrial Area",
       "assignedWorkerId": "W002",
-      "description": "Industrial Zone, Factory Road, Warehouse District"
+      "description": "Industrial Zone, Factory Road, Warehouse District",
+      "time": "06:30"
     },
     {
       "id": "R003",
       "name": "Route C - Residential Colony",
       "assignedWorkerId": "W003",
-      "description": "Green Colony, Sunrise Nagar, Nehru Street"
+      "description": "Green Colony, Sunrise Nagar, Nehru Street",
+      "time": "07:00"
     },
     {
       "id": "R004",
       "name": "Route D - Market Area",
       "assignedWorkerId": "W004",
-      "description": "Central Market, Bazaar Road, Flower Market, Fish Market"
+      "description": "Central Market, Bazaar Road, Flower Market, Fish Market",
+      "time": "07:30"
     },
     {
       "id": "R005",
       "name": "Route E - Highway Stretch",
       "assignedWorkerId": "W005",
-      "description": "Highway Road, Toll Gate, Outskirts, Petrol Bunk Junction"
+      "description": "Highway Road, Toll Gate, Outskirts, Petrol Bunk Junction",
+      "time": "08:00"
     },
     {
       "id": "R006",
       "name": "Route F - Hospital Zone",
       "assignedWorkerId": "W006",
-      "description": "Hospital Road, Clinic Street, Pharmacy Lane, Blood Bank Road"
+      "description": "Hospital Road, Clinic Street, Pharmacy Lane, Blood Bank Road",
+      "time": "08:30"
     },
     {
       "id": "R007",
       "name": "Route G - School District",
       "assignedWorkerId": "W007",
-      "description": "School Road, College Lane, Library Street, Play Ground Road"
+      "description": "School Road, College Lane, Library Street, Play Ground Road",
+      "time": "09:00"
     },
     {
       "id": "R008",
       "name": "Route H - Township",
       "assignedWorkerId": "W008",
-      "description": "Township Layout, Sector 1-5, Community Hall Road, Park Avenue"
+      "description": "Township Layout, Sector 1-5, Community Hall Road, Park Avenue",
+      "time": "09:30"
     },
     {
       "id": "R009",
       "name": "Route I - Railway Colony",
       "assignedWorkerId": "W009",
-      "description": "Railway Station Road, Platform Area, Colony Gate, Staff Quarters"
+      "description": "Railway Station Road, Platform Area, Colony Gate, Staff Quarters",
+      "time": "10:00"
     },
     {
       "id": "R010",
       "name": "Route J - Temple Town",
       "assignedWorkerId": "W010",
-      "description": "Temple Street, Pilgrim Road, Ghat Road, Prasad Market"
+      "description": "Temple Street, Pilgrim Road, Ghat Road, Prasad Market",
+      "time": "10:30"
     },
     {
       "id": "R011",
       "name": "Route K - IT Park",
       "assignedWorkerId": "W012",
-      "description": "IT Expressway, Tech Park, Software Layout, Cafeteria Road"
+      "description": "IT Expressway, Tech Park, Software Layout, Cafeteria Road",
+      "time": "11:00"
     },
     {
       "id": "R012",
       "name": "Route L - Garden District",
       "assignedWorkerId": "W014",
-      "description": "Botanical Garden Road, Rose Park, Lotus Lane, Fern Avenue"
+      "description": "Botanical Garden Road, Rose Park, Lotus Lane, Fern Avenue",
+      "time": "11:30"
     },
     {
       "id": "R013",
       "name": "Route M - Lake View",
       "assignedWorkerId": "W015",
-      "description": "Lakefront Road, Boat House Area, Fishermen Colony, Sunset Point"
+      "description": "Lakefront Road, Boat House Area, Fishermen Colony, Sunset Point",
+      "time": "06:00"
     },
     {
       "id": "R014",
       "name": "Route N - Shopping Complex",
       "assignedWorkerId": "W016",
-      "description": "Mall Road, Hypermarket Lane, Food Court Street, Parking Area"
+      "description": "Mall Road, Hypermarket Lane, Food Court Street, Parking Area",
+      "time": "06:30"
     },
     {
       "id": "R015",
       "name": "Route O - Old City",
       "assignedWorkerId": "W017",
-      "description": "Heritage Street, Fort Road, Ancient Bazaar, Clock Tower Area"
+      "description": "Heritage Street, Fort Road, Ancient Bazaar, Clock Tower Area",
+      "time": "07:00"
     },
     {
       "id": "R016",
       "name": "Route P - University Campus",
       "assignedWorkerId": "W018",
-      "description": "University Gate, Hostel Road, Sports Complex, Research Block"
+      "description": "University Gate, Hostel Road, Sports Complex, Research Block",
+      "time": "07:30"
     },
     {
       "id": "R017",
       "name": "Route Q - Industrial Estate",
       "assignedWorkerId": "W019",
-      "description": "Phase 1-3 Industrial Estate, Power House Road, Logistics Hub"
+      "description": "Phase 1-3 Industrial Estate, Power House Road, Logistics Hub",
+      "time": "08:00"
     },
     {
       "id": "R018",
       "name": "Route R - Suburban Area",
       "assignedWorkerId": "W021",
-      "description": "Suburban Bus Stand, Market Yard, School Zone, Residential Blocks A-D"
+      "description": "Suburban Bus Stand, Market Yard, School Zone, Residential Blocks A-D",
+      "time": "08:30"
     }
   ],
   "attendance": [
