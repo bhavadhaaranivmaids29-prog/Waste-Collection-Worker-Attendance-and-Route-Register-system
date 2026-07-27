@@ -142,6 +142,7 @@ app.get('/api/attendance', (req, res) => {
   if (workerId) records = records.filter(a => a.workerId === workerId);
   const enriched = records.map(a => ({
     ...a,
+    workerName: (data.workers.find(w => w.id === a.workerId) || {}).name || '',
     worker: data.workers.find(w => w.id === a.workerId) || null
   }));
   res.json(enriched);
@@ -149,7 +150,20 @@ app.get('/api/attendance', (req, res) => {
 
 app.post('/api/attendance', (req, res) => {
   const data = readDB();
-  const { workerId, date, status } = req.body;
+  const { workerId, workerName, date, status } = req.body;
+  if (!workerId || !workerId.trim()) {
+    return res.status(400).json({ error: 'Worker ID is required' });
+  }
+  if (!workerName || !workerName.trim()) {
+    return res.status(400).json({ error: 'Worker Name is required and cannot be empty' });
+  }
+  const worker = data.workers.find(w => w.id === workerId);
+  if (!worker) {
+    return res.status(400).json({ error: 'Invalid Worker Name — no worker found with this ID' });
+  }
+  if (worker.name.trim() !== workerName.trim()) {
+    return res.status(400).json({ error: 'Worker Name does not match the registered worker name' });
+  }
   const existing = data.attendance.find(a => a.workerId === workerId && a.date === date);
   if (existing) {
     existing.status = status;
@@ -157,7 +171,7 @@ app.post('/api/attendance', (req, res) => {
     return res.json(existing);
   }
   const id = 'A' + nextId('attendance');
-  const record = { id, workerId, date, status };
+  const record = { id, workerId, workerName, date, status };
   data.attendance.push(record);
   writeDB(data);
   res.status(201).json(record);

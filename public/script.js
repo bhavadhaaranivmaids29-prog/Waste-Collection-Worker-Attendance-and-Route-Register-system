@@ -818,7 +818,7 @@ function renderAttendance(el, date) {
 function showAttendanceModal(date) {
   const workers = dbGetWorkers();
   openModal(`Mark Attendance — ${date}`,
-    workers.map(w=>`<div class="att-row" data-wid="${w.id}" data-status="present">
+    workers.map(w=>`<div class="att-row" data-wid="${w.id}" data-wname="${w.name}" data-status="present">
       <span style="flex:1;font-weight:600;font-size:.9rem;color:var(--text)">${w.name}</span>
       <button class="btn btn-sm btn-primary att-btn" onclick="pickAtt(this,'present')">present</button>
       <button class="btn btn-sm btn-ghost att-btn" onclick="pickAtt(this,'absent')">absent</button>
@@ -836,8 +836,48 @@ function pickAtt(btn, status) {
 }
 
 function saveAllAttendance(date) {
-  document.querySelectorAll('.att-row').forEach(r=>dbSaveAttendance(r.dataset.wid,date,r.dataset.status));
-  closeModal(); toast('Attendance marked'); renderPage();
+  const rows = document.querySelectorAll('.att-row');
+  const payloads = Array.from(rows).map(r => ({
+    workerId: r.dataset.wid,
+    workerName: r.dataset.wname,
+    date,
+    status: r.dataset.status
+  }));
+  const errors = [];
+  let saved = 0;
+  const sendNext = (i) => {
+    if (i >= payloads.length) {
+      closeModal();
+      if (errors.length) {
+        errors.forEach(e => toast(e, true));
+      } else {
+        toast('Attendance marked');
+      }
+      renderPage();
+      return;
+    }
+    const p = payloads[i];
+    fetch('/api/attendance', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(p)
+    })
+    .then(resp => resp.json().then(body => ({status: resp.status, body})))
+    .then(({status, body}) => {
+      if (status >= 400) {
+        errors.push(body.error || 'Failed to save attendance');
+      } else {
+        dbSaveAttendance(p.workerId, date, p.status);
+        saved++;
+      }
+      sendNext(i + 1);
+    })
+    .catch(() => {
+      errors.push('Network error — could not reach server');
+      sendNext(i + 1);
+    });
+  };
+  sendNext(0);
 }
 
 function deleteAttendance(id) { dbDeleteAttendance(id); toast('Record deleted'); renderPage(); }
