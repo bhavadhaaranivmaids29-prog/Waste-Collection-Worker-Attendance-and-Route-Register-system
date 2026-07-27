@@ -889,10 +889,10 @@ function renderRoutes(el) {
   el.innerHTML = `
     <div class="page-actions animate-in"><button class="btn btn-primary" onclick="showRouteModal()">${ICO.plus} Add Route</button></div>
     <div class="card animate-in animate-delay-1"><div class="table-wrapper"><table class="data-table">
-      <thead><tr><th>ID</th><th>Route Name</th><th>Assigned Worker</th><th>Description</th><th>Actions</th></tr></thead>
+      <thead><tr><th>ID</th><th>Route Name</th><th>Assigned Worker</th><th>Description</th><th>Time</th><th>Actions</th></tr></thead>
       <tbody>${routes.map((r,i)=>{
         const w = workers.find(x=>x.id===r.assignedWorkerId);
-        return `<tr style="animation-delay:${i*.04}s"><td><strong>${r.id}</strong></td><td>${r.name}</td><td>${w?w.name:r.assignedWorkerId}</td><td style="max-width:250px">${r.description}</td><td><div class="action-btns"><button class="action-btn" onclick='showRouteModal(${JSON.stringify(r).replace(/'/g,"&#39;")})'>${ICO.edit}</button><button class="action-btn delete" onclick="deleteRoute('${r.id}')">${ICO.del}</button></div></td></tr>`;
+        return `<tr style="animation-delay:${i*.04}s"><td><strong>${r.id}</strong></td><td>${r.name}</td><td>${w?w.name:r.assignedWorkerId}</td><td style="max-width:250px">${r.description}</td><td>${r.time||'-'}</td><td><div class="action-btns"><button class="action-btn" onclick='showRouteModal(${JSON.stringify(r).replace(/'/g,"&#39;")})'>${ICO.edit}</button><button class="action-btn delete" onclick="deleteRoute('${r.id}')">${ICO.del}</button></div></td></tr>`;
       }).join('')}
       </tbody></table></div></div>`;
 }
@@ -902,12 +902,13 @@ function showRouteModal(route) {
   openModal(route?'Edit Route':'Add Route',
     `<div class="form-group"><label>Route Name</label><input class="form-input" id="rName" value="${route?route.name:''}" placeholder="e.g. Route F - Downtown"></div>
      <div class="form-group"><label>Assigned Worker</label><select class="form-select" id="rWorker"><option value="">Select worker</option>${workers.map(w=>`<option value="${w.id}" ${route&&route.assignedWorkerId===w.id?'selected':''}>${w.name} (${w.id})</option>`).join('')}</select></div>
-     <div class="form-group"><label>Description</label><input class="form-input" id="rDesc" value="${route?route.description:''}" placeholder="Areas covered"></div>`,
+     <div class="form-group"><label>Description</label><input class="form-input" id="rDesc" value="${route?route.description:''}" placeholder="Areas covered"></div>
+     <div class="form-group"><label>Time</label><input class="form-input" id="rTime" type="time" value="${route?route.time||'':''}" placeholder="e.g. 08:00"></div>`,
     `<button class="btn btn-ghost" onclick="closeModal()">Cancel</button><button class="btn btn-primary" onclick="saveRoute('${route?route.id:''}')">Save</button>`);
 }
 
 function saveRoute(id) {
-  dbSaveRoute(id||null, {name:document.getElementById('rName').value, assignedWorkerId:document.getElementById('rWorker').value, description:document.getElementById('rDesc').value});
+  dbSaveRoute(id||null, {name:document.getElementById('rName').value, assignedWorkerId:document.getElementById('rWorker').value, description:document.getElementById('rDesc').value, time:document.getElementById('rTime').value});
   closeModal(); toast('Route saved'); renderPage();
 }
 
